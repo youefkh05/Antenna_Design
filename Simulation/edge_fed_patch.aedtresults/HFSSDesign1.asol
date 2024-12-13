@@ -1,0 +1,42 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000012, day=000000000013, hour=000000000016, min=000000000039, sec=000000000054)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000000870, lin=000000000025, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=20
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=40
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=16)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=36
+	$begin 'NextAssemVersionID'
+		NextUniqueID=37
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+$end 'BlockMapName'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=799, lin=22, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=870, lin=25, lvl=0)
+	$end '$index$'
+$end '$index$'
