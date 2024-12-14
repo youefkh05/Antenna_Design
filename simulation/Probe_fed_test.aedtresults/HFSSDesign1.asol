@@ -1,0 +1,267 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000012, day=000000000012, hour=000000000016, min=000000000002, sec=000000000053)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000007497, lin=000000000245, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=1142
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1221
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=648)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=648, Ver=1142, Dir='DV648_V1142.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=86
+	$begin 'NextAssemVersionID'
+		NextUniqueID=87
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=85
+			VIDMap('', 885)
+			DM(VID=885, Ver=85, Dir='NDV885_V85.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=648, Ver=1142, Dir='DV648_MI0_V1142.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=998, Instance=\'SetupDefinition\', Solution=-1, VersionID=1142)'='SolutionBlock25'
+	'SolutionKey(SimSetup=998, Instance=\'SolutionDefinition\', Solution=1000, VersionID=1142)'='SolutionBlock23'
+	'SolutionKey(SimSetup=998, Instance=\'SolutionDefinition\', Solution=1003, VersionID=1142)'='SolutionBlock24'
+	'SolutionKey(SimSetup=998, Instance=\'SolutionDefinition\', Solution=999, VersionID=1142)'='SolutionBlock22'
+$end 'BlockMapName'
+$begin 'SolutionBlock25'
+	SimSetupID=998
+	SimSetupName='Setup1'
+	VersionID=1142
+	$begin 'EmConvergenceData'
+		EmConv(VID=648, Ver=1142, EmConv='DV648_S998_V1142.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=3
+	$begin 'CurrMeshes'
+		M(VID=648, Ver=1142, Dir='DV648_S998_V1142.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=12
+	$begin 'NextAssemVersionID'
+		NextUniqueID=13
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=0
+			ADP(VID=648, Ver=1142, Dir='DV648_S998_ADP0_V1142.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			ADP(VID=648, Ver=1142, Dir='DV648_S998_ADP1_V1142.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			ADP(VID=648, Ver=1142, Dir='DV648_S998_ADP2_V1142.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			ADP(VID=648, Ver=1142, Dir='DV648_S998_ADP3_V1142.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			ADP(VID=648, Ver=1142, Dir='DV648_S998_ADP4_V1142.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			ADP(VID=648, Ver=1142, Dir='DV648_S998_ADP5_V1142.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			ADP(VID=648, Ver=1142, Dir='DV648_S998_ADP6_V1142.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=648, Ver=1142, File='DV648_S998_SD1_V1142.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=648, Ver=1142, File='DV648_S998_SD2_V1142.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=648, Ver=1142, File='DV648_S998_SD3_V1142.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=648, Ver=1142, File='DV648_S998_SD4_V1142.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=648, Ver=1142, File='DV648_S998_SD5_V1142.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			SU(VID=648, Ver=1142, File='DV648_S998_SD6_V1142.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=648, Ver=1142, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=648, Ver=1142, P=6)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=648, Ver=1142, File='DV648_S998_V1142.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=648, Ver=1142, Dir='DV648_S998_MI0_V1142.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock25'
+$begin 'SolutionBlock22'
+	SolutionName='AdaptivePass'
+	SolutionID=999
+	V=1142
+	$begin 'States'
+		F(VID=648, Ver=1142)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2300000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=648, Ver=1142, File='DV648_SOL999_M1_V1142.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=648, Ver=1142, File='DV648_SOL999_M2_V1142.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=648, Ver=1142, File='DV648_SOL999_M3_V1142.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=648, Ver=1142, File='DV648_SOL999_M4_V1142.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=648, Ver=1142, File='DV648_SOL999_M5_V1142.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=648, Ver=1142, File='DV648_SOL999_M6_V1142.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock22'
+$begin 'SolutionBlock23'
+	SolutionName='LastAdaptive'
+	SolutionID=1000
+	V=1142
+	$begin 'States'
+		F(VID=648, Ver=1142)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2300000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=648, Ver=1142, File='DV648_SOL1000_M0_V1142.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(1116, 2300000000)
+		$begin 'DataMap'
+			VID=648
+			Ver=1142
+			F(DblID=1116, Dir='DV648_S1000_V1142_F1116/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock23'
+$begin 'SolutionBlock24'
+	SolutionName='Sweep'
+	SolutionID=1003
+	V=1142
+	$begin 'States'
+		F(VID=648, Ver=1142)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2200000000, 2203000000, 2206000000, 2209000000, 2212000000, 2215000000, 2218000000, 2221000000, 2224000000, 2227000000, 2230000000, 2233000000, 2236000000, 2239000000, 2242000000, 2245000000, 2248000000, 2251000000, 2254000000, 2257000000, 2260000000, 2263000000, 2266000000, 2269000000, 2272000000, 2275000000, 2278000000, 2281000000, 2284000000, 2287000000, 2290000000, 2293000000, 2296000000, 2299000000, 2302000000, 2305000000, 2308000000, 2311000000, 2314000000, 2317000000, 2320000000, 2323000000, 2326000000, 2329000000, 2332000000, 2335000000, 2338000000, 2341000000, 2344000000, 2347000000, 2350000000, 2353000000, 2356000000, 2359000000, 2362000000, 2365000000, 2368000000, 2371000000, 2374000000, 2377000000, 2380000000, 2383000000, 2386000000, 2389000000, 2392000000, 2395000000, 2398000000, 2401000000, 2404000000, 2407000000, 2410000000, 2413000000, 2416000000, 2419000000, 2422000000, 2425000000, 2428000000, 2431000000, 2434000000, 2437000000, 2440000000, 2443000000, 2446000000, 2449000000, 2452000000, 2455000000, 2458000000, 2461000000, 2464000000, 2467000000, 2470000000, 2473000000, 2476000000, 2479000000, 2482000000, 2485000000, 2488000000, 2491000000, 2494000000, 2497000000, 2500000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=648, Ver=1142, File='DV648_SOL1003_M0_V1142.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(1133, 2350000000)
+		$begin 'DataMap'
+			VID=648
+			Ver=1142
+			F(DblID=1133, Dir='DV648_S1003_V1142_F1133/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock24'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1203, lin=37, lvl=0)
+		SolutionBlock22(pos=3937, lin=134, lvl=0)
+		SolutionBlock23(pos=4949, lin=179, lvl=0)
+		SolutionBlock24(pos=5627, lin=212, lvl=0)
+		SolutionBlock25(pos=1712, lin=44, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=7497, lin=245, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

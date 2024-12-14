@@ -1,0 +1,123 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000012, day=000000000014, hour=000000000007, min=000000000057, sec=000000000057)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005078, lin=000000000102, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=23
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=148
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=28)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	MeshAssemVersionID=42
+	$begin 'NextAssemVersionID'
+		NextUniqueID=43
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=25, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock5'
+	'SolutionKey(SimSetup=25, Instance=\'SolutionDefinition\', Solution=26, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=25, Instance=\'SolutionDefinition\', Solution=27, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=25, Instance=\'SolutionDefinition\', Solution=31, VersionID=0)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=26
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2250000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=27
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2250000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='Sweep'
+	SolutionID=31
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000, 1012500000, 1025000000, 1037500000, 1050000000, 1062500000, 1075000000, 1087500000, 1100000000, 1112500000, 1125000000, 1137500000, 1150000000, 1162500000, 1175000000, 1187500000, 1200000000, 1212500000, 1225000000, 1237500000, 1250000000, 1262500000, 1275000000, 1287500000, 1300000000, 1312500000, 1325000000, 1337500000, 1350000000, 1362500000, 1375000000, 1387500000, 1400000000, 1412500000, 1425000000, 1437500000, 1450000000, 1462500000, 1475000000, 1487500000, 1500000000, 1512500000, 1525000000, 1537500000, 1550000000, 1562500000, 1575000000, 1587500000, 1600000000, 1612500000, 1625000000, 1637500000, 1650000000, 1662500000, 1675000000, 1687500000, 1700000000, 1712500000, 1725000000, 1737500000, 1750000000, 1762500000, 1775000000, 1787500000, 1800000000, 1812500000, 1825000000, 1837500000, 1850000000, 1862500000, 1875000000, 1887500000, 1900000000, 1912500000, 1925000000, 1937500000, 1950000000, 1962500000, 1975000000, 1987500000, 2000000000, 2012500000, 2025000000, 2037500000, 2050000000, 2062500000, 2075000000, 2087500000, 2100000000, 2112500000, 2125000000, 2137500000, 2150000000, 2162500000, 2175000000, 2187500000, 2200000000, 2212500000, 2225000000, 2237500000, 2250000000, 2262500000, 2275000000, 2287500000, 2300000000, 2312500000, 2325000000, 2337500000, 2350000000, 2362500000, 2375000000, 2387500000, 2400000000, 2412500000, 2425000000, 2437500000, 2450000000, 2462500000, 2475000000, 2487500000, 2500000000, 2512500000, 2525000000, 2537500000, 2550000000, 2562500000, 2575000000, 2587500000, 2600000000, 2612500000, 2625000000, 2637500000, 2650000000, 2662500000, 2675000000, 2687500000, 2700000000, 2712500000, 2725000000, 2737500000, 2750000000, 2762500000, 2775000000, 2787500000, 2800000000, 2812500000, 2825000000, 2837500000, 2850000000, 2862500000, 2875000000, 2887500000, 2900000000, 2912500000, 2925000000, 2937500000, 2950000000, 2962500000, 2975000000, 2987500000, 3000000000, 3012500000, 3025000000, 3037500000, 3050000000, 3062500000, 3075000000, 3087500000, 3100000000, 3112500000, 3125000000, 3137500000, 3150000000, 3162500000, 3175000000, 3187500000, 3200000000, 3212500000, 3225000000, 3237500000, 3250000000, 3262500000, 3275000000, 3287500000, 3300000000, 3312500000, 3325000000, 3337500000, 3350000000, 3362500000, 3375000000, 3387500000, 3400000000, 3412500000, 3425000000, 3437500000, 3450000000, 3462500000, 3475000000, 3487500000, 3500000000)
+		SolutionType=4
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SimSetupID=25
+	SimSetupName='Setup1'
+	VersionID=0
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	MeshAssemVersionID=0
+	$begin 'NextAssemVersionID'
+		NextUniqueID=1
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock5'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=800, lin=22, lvl=0)
+		SolutionBlock2(pos=1284, lin=29, lvl=0)
+		SolutionBlock3(pos=1639, lin=47, lvl=0)
+		SolutionBlock4(pos=1994, lin=65, lvl=0)
+		SolutionBlock5(pos=4741, lin=83, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5078, lin=102, lvl=0)
+	$end '$index$'
+$end '$index$'
