@@ -1,0 +1,8 @@
+# Ignore folders ending with .aedtresults
+*.aedtresults/
+
+# Ignore .lock files
+*.lock
+
+# Ignore .temp files
+*.temp
