@@ -6,3 +6,6 @@
 
 # Ignore .temp files
 *.temp
+
+# Ignore .aedt.auto files
+*.aedt.auto
