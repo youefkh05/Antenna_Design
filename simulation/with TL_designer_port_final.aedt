@@ -2360,8 +2360,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=4054
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='20GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -2406,7 +2404,7 @@ $begin 'AnsoftProject'
 					ScaleFactor=0.200000002980232
 					Visible=false
 					CoordSys=-1
-					PlaneNormalValues(-1, 6.12323399573677e-17, 0)
+					PlaneNormalValues(-0, 1, 0)
 				$end 'Report2dPlot_3'
 				$begin 'Report2dPlot_4'
 					DisplayType=3
@@ -2415,7 +2413,7 @@ $begin 'AnsoftProject'
 					ScaleFactor=0.200000002980232
 					Visible=false
 					CoordSys=-1
-					PlaneNormalValues(-1, 6.12323399573677e-17, 0)
+					PlaneNormalValues(-1, -3.49148133884313e-15, 0)
 				$end 'Report2dPlot_4'
 			$end 'Report2dInGeomWnd'
 			$begin 'AntennaParametersInGeomWnd'
@@ -2558,131 +2556,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='Lp'
-								Column='5.78mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Wp'
-								Column='7.54mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hs'
-								Column='0.406mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Ws'
-								Column='11.736mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Ls'
-								Column='18.206mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='xsub'
-								Column='-9.103mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='ysub'
-								Column='-5.868mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='xfeed'
-								Column='1.1mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='dp'
-								Column='3.5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rcoax'
-								Column='0.16mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hcoax'
-								Column='0.203mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rprope'
-								Column='0.07mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Lair'
-								Column='28.206mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Wair'
-								Column='21.736mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='xair'
-								Column='14.103mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='yair'
-								Column='10.868mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hair'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='yfeed'
-								Column='0mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='xp'
-								Column='1.75mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='yp'
-								Column='-3.77mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hgnd'
-								Column='-0.032mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='Xcoax'
-								Column='2'
-								Units=''
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='WTL_In'
-								Column='0.673367mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='LTL_feed'
-								Column='2.179292mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='WTL_feed'
-								Column='0.976256mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -2691,15 +2564,9 @@ $begin 'AnsoftProject'
 					ID=4054
 					Name='LastAdaptive'
 					$begin 'SimDataExtractor'
-						SimValue('GainTotal', 1, 90, true, SimValueID=11543, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
-						SimValue('rETotal', 1, 67, false, SimValueID=11544, 0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainPhi', 1, 90, true, SimValueID=11545, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainTheta', 1, 90, true, SimValueID=11546, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('rETotal', 1, 67, false, SimValueID=11547, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainTotal', 1, 90, true, SimValueID=11548, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('rETotal', 1, 67, false, SimValueID=11552, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainTotal', 1, 90, true, SimValueID=11638, 0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
-						SimValue('PeakDirectivity', 1, 90, true, SimValueID=11639, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+						SimValue('GainTotal', 1, 90, true, SimValueID=11846, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
+						SimValue('rETotal', 1, 67, false, SimValueID=11847, 0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
+						SimValue('rETotal', 1, 67, false, SimValueID=11848, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'Sweep'
 								Variable='Freq'
@@ -2875,18 +2742,18 @@ $begin 'AnsoftProject'
 					ID=4057
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Zo(1)', 2, 90, false, SimValueID=11549, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=11550, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Z(1,1)', 2, 90, false, SimValueID=11551, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainTotal', 1, 90, true, SimValueID=11635, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainTotal', 1, 90, true, SimValueID=11636, 0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainTotal', 1, 90, true, SimValueID=11637, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
-						SimValue('PeakDirectivity', 1, 90, true, SimValueID=11640, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('PeakGain', 1, 90, true, SimValueID=11641, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
-						SimValue('rETotal', 1, 67, false, SimValueID=11803, 0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
-						SimValue('VSWR(1)', 1, 90, false, SimValueID=11804, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainTheta', 1, 90, true, SimValueID=11805, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
-						SimValue('GainPhi', 1, 90, true, SimValueID=11806, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
+						SimValue('PeakGain', 1, 90, true, SimValueID=11849, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+						SimValue('GainPhi', 1, 90, true, SimValueID=11850, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
+						SimValue('GainTheta', 1, 90, true, SimValueID=11851, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
+						SimValue('GainTotal', 1, 90, true, SimValueID=11852, 0, 0, 2, 0, false, false, 17, 1, 0, 1, 1, '', 0, 0)
+						SimValue('rETotal', 1, 67, false, SimValueID=11853, 0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
+						SimValue('GainTotal', 1, 90, true, SimValueID=11854, 0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
+						SimValue('GainTotal', 1, 90, true, SimValueID=11855, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Zo(1)', 2, 90, false, SimValueID=11856, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=11857, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Z(1,1)', 2, 90, false, SimValueID=11858, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('VSWR(1)', 1, 90, false, SimValueID=11859, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('rETotal', 1, 67, false, SimValueID=11860, 0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -3122,7 +2989,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						Circuit(Editor3d(View(WindowPos(5, -1, -1, -9, -38, -308, 12, 731, 421), OrientationMatrix(0, 0.0665942281484604, 3.72529029846191e-09, 0, 0.066594235599041, 0, 0, 0, -8.14907252788544e-10, -7.45058059692383e-09, -0.066594235599041, 0, 1.00707292556763, -0.613080978393555, -4.04028511047363, 1, 0, -0.422892332077026, 2.04258418083191, -1.10961270332336, 0.0411572456359863, -1.7905216217041, 10.1970043182373), Drawings[14: 'Sub1', 'Patch', 'Coax', 'Coax_Pin', 'Prope', 'Air', 'Patch2', 'Coax2', 'Coax_Pin2', 'Prope2', 'inf_GND', 'Sub_TL', 'TL_feed', 'Input_Port'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=1, dYForGrid=1, dZForGrid=1, dRForGrid=1, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						Circuit(Editor3d(View(WindowPos(5, -1, -1, -9, -38, -308, 12, 731, 421), OrientationMatrix(0, 0.0665942281484604, 3.72529029846191e-09, 0, 0.066594235599041, 0, 0, 0, -8.14907252788544e-10, -7.45058059692383e-09, -0.066594235599041, 0, 1.00707292556763, -0.613080978393555, -4.04028511047363, 1, 0, -0.427713871002197, 2.04740571975708, -1.10961270332336, 0.0411572456359863, -1.7905216217041, 10.1970043182373), Drawings[14: 'Sub1', 'Patch', 'Coax', 'Coax_Pin', 'Prope', 'Air', 'Patch2', 'Coax2', 'Coax_Pin2', 'Prope2', 'inf_GND', 'Sub_TL', 'TL_feed', 'Input_Port'], 'View Data'('Render Mode'=1, 'Show Ruler'=1, 'Coordinate Systems View Mode'=0, 'CS Triad View Mode'=0, 'Render Facets'=1, GridVisible=1, GridAutoAdjust=1, GridAutoExtents=1, GridType='Rect', GridStyle='Line', NumPixels=30, dXForGrid=1, dYForGrid=1, dZForGrid=1, dRForGrid=1, dThetaForGrid=10), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -3556,20 +3423,20 @@ $begin 'AnsoftProject'
 											SolutionID=4057
 											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 												ReportType=3
-												SimValueContext(0, 0, 2, 0, false, false, 15, 1, 0, 1, 1, '', 0, 0)
+												SimValueContext(0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
 											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
 									$end 'DesignSolnDefn'
 									ID=462
-									VersionID=6836
-									Name='dB20normalize(rETotal)'
+									VersionID=6858
+									Name='dB(rETotal)'
 									TieNameToExpr=true
 									$begin 'Components'
 										$begin 'TraceComponentDefinition'
 											Expr='Theta'
 										$end 'TraceComponentDefinition'
 										$begin 'TraceComponentDefinition'
-											Expr='dB20normalize(rETotal)'
+											Expr='dB(rETotal)'
 										$end 'TraceComponentDefinition'
 									$end 'Components'
 									$begin 'ExtendedTraceInfo'
@@ -4622,7 +4489,7 @@ $begin 'AnsoftProject'
 						NextUniqueID=480
 						MoveBackwards=false
 						$begin 'NextVersID'
-							NextUniqueID=6857
+							NextUniqueID=6859
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
@@ -5056,7 +4923,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=21
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -5657,7 +5524,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=20
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -5883,10 +5750,6 @@ $begin 'AnsoftProject'
 													ID=9
 													Name='ColorKey'
 												$end 'Plot3DColorKeyDataSource'
-												$begin 'Plot3DPolarCurveDataSource'
-													ID=10
-													Name='mag(GainTotal)'
-												$end 'Plot3DPolarCurveDataSource'
 											$end 'Plot3DDataSources'
 											$begin 'Plot3DAttributesManager'
 												$begin 'PlotAttributeStore'
@@ -5937,10 +5800,6 @@ $begin 'AnsoftProject'
 											ID=9
 											Name='ColorKey'
 										$end 'Plot3DColorKeyDataSource'
-										$begin 'Plot3DPolarCurveDataSource'
-											ID=10
-											Name='mag(GainTotal)'
-										$end 'Plot3DPolarCurveDataSource'
 									$end 'Plot3DDataSources'
 									$begin 'Plot3DAttributesManager'
 										$begin 'PlotAttributeStore'
@@ -5966,7 +5825,7 @@ $begin 'AnsoftProject'
 									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=46
+									NextUniqueID=67
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -5977,52 +5836,102 @@ $begin 'AnsoftProject'
 									$begin 'SourceList'
 										$begin 'ListItem'
 											$begin 'MarkerDataSource'
-												MarkerID=28
+												MarkerID=47
 												MarkerName='m1'
 												AttachedToDrawing=true
 												CurveID=10
 												CurveDefinition='Polar'
-												PrimarySweepValue='34deg'
+												PrimarySweepValue='0deg'
 											$end 'MarkerDataSource'
 										$end 'ListItem'
 										$begin 'ListItem'
 											$begin 'MarkerDataSource'
-												MarkerID=38
+												MarkerID=49
 												MarkerName='m2'
 												AttachedToDrawing=true
 												CurveID=10
 												CurveDefinition='Polar'
-												PrimarySweepValue='-14deg'
+												PrimarySweepValue='22deg'
 											$end 'MarkerDataSource'
 										$end 'ListItem'
 										$begin 'ListItem'
 											$begin 'MarkerDataSource'
-												MarkerID=40
+												MarkerID=51
 												MarkerName='m3'
 												AttachedToDrawing=true
 												CurveID=10
 												CurveDefinition='Polar'
-												PrimarySweepValue='16deg'
+												PrimarySweepValue='-20deg'
 											$end 'MarkerDataSource'
 										$end 'ListItem'
 										$begin 'ListItem'
 											$begin 'MarkerDataSource'
-												MarkerID=42
+												MarkerID=53
 												MarkerName='m4'
 												AttachedToDrawing=true
 												CurveID=10
 												CurveDefinition='Polar'
-												PrimarySweepValue='-180deg'
+												PrimarySweepValue='62deg'
 											$end 'MarkerDataSource'
 										$end 'ListItem'
 										$begin 'ListItem'
 											$begin 'MarkerDataSource'
-												MarkerID=44
+												MarkerID=55
 												MarkerName='m5'
 												AttachedToDrawing=true
 												CurveID=10
 												CurveDefinition='Polar'
-												PrimarySweepValue='158deg'
+												PrimarySweepValue='-64deg'
+											$end 'MarkerDataSource'
+										$end 'ListItem'
+										$begin 'ListItem'
+											$begin 'MarkerDataSource'
+												MarkerID=57
+												MarkerName='m6'
+												AttachedToDrawing=true
+												CurveID=10
+												CurveDefinition='Polar'
+												PrimarySweepValue='80deg'
+											$end 'MarkerDataSource'
+										$end 'ListItem'
+										$begin 'ListItem'
+											$begin 'MarkerDataSource'
+												MarkerID=59
+												MarkerName='m7'
+												AttachedToDrawing=true
+												CurveID=10
+												CurveDefinition='Polar'
+												PrimarySweepValue='-78deg'
+											$end 'MarkerDataSource'
+										$end 'ListItem'
+										$begin 'ListItem'
+											$begin 'MarkerDataSource'
+												MarkerID=61
+												MarkerName='m8'
+												AttachedToDrawing=true
+												CurveID=10
+												CurveDefinition='Polar'
+												PrimarySweepValue='112deg'
+											$end 'MarkerDataSource'
+										$end 'ListItem'
+										$begin 'ListItem'
+											$begin 'MarkerDataSource'
+												MarkerID=63
+												MarkerName='m9'
+												AttachedToDrawing=true
+												CurveID=10
+												CurveDefinition='Polar'
+												PrimarySweepValue='-116deg'
+											$end 'MarkerDataSource'
+										$end 'ListItem'
+										$begin 'ListItem'
+											$begin 'MarkerDataSource'
+												MarkerID=65
+												MarkerName='m10'
+												AttachedToDrawing=true
+												CurveID=10
+												CurveDefinition='Polar'
+												PrimarySweepValue='180deg'
 											$end 'MarkerDataSource'
 										$end 'ListItem'
 									$end 'SourceList'
@@ -6037,9 +5946,9 @@ $begin 'AnsoftProject'
 														DecimalFieldPrecision=2
 														ManualTitle=''
 														AxisColor(R=0, G=0, B=0)
-														MinScale=-30
-														MaxScale=0
-														TickSpacing=6
+														MinScale=-20
+														MaxScale=30
+														TickSpacing=10
 														ManualUnits=false
 														Units=''
 														AxisScale='Linear'
@@ -6428,17 +6337,17 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=9
+											ItemID=46
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
 														DataSourceID=1
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=1171
-																Left=8516
-																Bottom=8828
-																Right=859
+																Top=754
+																Left=9049
+																Bottom=9246
+																Right=557
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -6449,7 +6358,7 @@ $begin 'AnsoftProject'
 																Top=75
 																Left=75
 																Bottom=9925
-																Right=675
+																Right=444
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
 													$end 'SubMapItem'
@@ -6462,14 +6371,38 @@ $begin 'AnsoftProject'
 																$begin 'OverlayLayoutAttribute'
 																	$begin 'BoundingRect'
 																		Top=4850
-																		Left=775
+																		Left=544
 																		Bottom=9850
-																		Right=8275
+																		Right=8044
 																	$end 'BoundingRect'
 																	ModifySize=false
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 													$begin 'SubMapItem'
@@ -6487,6 +6420,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=true
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=7523
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=true
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=2477
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=true
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -6510,10 +6467,10 @@ $begin 'AnsoftProject'
 														DataSourceID=5
 														$begin 'PolarLayoutAttribute'
 															$begin 'PolarCircleRect'
-																Top=1171
-																Left=8516
-																Bottom=8828
-																Right=859
+																Top=754
+																Left=9049
+																Bottom=9246
+																Right=557
 															$end 'PolarCircleRect'
 															$begin 'AxisRect'
 																Top=0
@@ -6533,10 +6490,10 @@ $begin 'AnsoftProject'
 														DataSourceID=7
 														$begin 'PolarLayoutAttribute'
 															$begin 'PolarCircleRect'
-																Top=1171
-																Left=8516
-																Bottom=8828
-																Right=859
+																Top=754
+																Left=9049
+																Bottom=9246
+																Right=557
 															$end 'PolarCircleRect'
 															$begin 'AxisRect'
 																Top=0
@@ -6556,10 +6513,10 @@ $begin 'AnsoftProject'
 														DataSourceID=11
 														$begin 'PolarLayoutAttribute'
 															$begin 'PolarCircleRect'
-																Top=1171
-																Left=8516
-																Bottom=8828
-																Right=859
+																Top=754
+																Left=9049
+																Bottom=9246
+																Right=557
 															$end 'PolarCircleRect'
 															$begin 'AxisRect'
 																Top=0
@@ -6599,7 +6556,7 @@ $begin 'AnsoftProject'
 									$begin 'AllTransSrcDwg'
 										$begin 'PT'
 											ID=3
-											TransSrcDwg(-1, 0, 8, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45)
+											TransSrcDwg(-1, 0, 8, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66)
 										$end 'PT'
 									$end 'AllTransSrcDwg'
 									$begin 'AllPtSVID'
@@ -7919,7 +7876,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -8045,6 +8002,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -8536,7 +8517,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=9
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -8578,6 +8559,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -10065,7 +10070,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -10207,6 +10212,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -11561,7 +11590,7 @@ $begin 'AnsoftProject'
 									$end 'DocDefaultAttributes'
 									$begin 'PerViewPlotAttributeStoreMap'
 										$begin 'MapItem'
-											ItemID=36
+											ItemID=-1
 											$begin 'PlotAttributeStoreMap'
 												$begin 'MainMapItem'
 													$begin 'SubMapItem'
@@ -11687,6 +11716,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -11728,26 +11781,6 @@ $begin 'AnsoftProject'
 							ReportID=130
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(21)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=3
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=1
-															view(21, cam(PolCam(-1, 1, -1, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -9, -38, 128, 128, 901, 612))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Eradation_pattern'
@@ -11755,33 +11788,13 @@ $begin 'AnsoftProject'
 							ReportID=132
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(20)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=3
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=1
-															view(20, cam(PolCam(-1, 1, -1, 1, 1.03940842779954e+30, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -9, -38, 32, 32, 805, 516))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Hradation_pattern'
 						$begin 'Gain_3D'
 							ReportID=387
 							$begin 'WindowInfoList'
-								R3DWindowPos(Report3D(View(WindowPos(5, -1, -1, -9, -38, 0, 0, 773, 484))))
+								R3DWindowPos(Report3D())
 							$end 'WindowInfoList'
 						$end 'Gain_3D'
 						$begin 'Gain_2D'
@@ -11790,7 +11803,7 @@ $begin 'AnsoftProject'
 								$begin 'Report2D'
 									$begin 'ViewInfo'
 										$begin 'WrapperView'
-											ID(9)
+											ID(46)
 										$end 'WrapperView'
 										$begin 'WrapperDoc'
 											HiddenDrawings()
@@ -11800,13 +11813,13 @@ $begin 'AnsoftProject'
 													$begin 'MedCamera'
 														$begin 'svrc'
 															svid=1
-															view(9, cam(PolCam(-1, 1, -1, 1, 0, 0)))
+															view(46, cam(PolCam(-1, 1, -1, 1, 0, 0)))
 														$end 'svrc'
 													$end 'MedCamera'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -9, -38, 64, 64, 837, 548))
+										WindowPos(WindowPos(3, -1, -1, -9, -38, 32, 32, 1208, 516))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
@@ -11815,26 +11828,6 @@ $begin 'AnsoftProject'
 							ReportID=467
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -9, -38, 192, 192, 965, 676))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'VSWR'
@@ -11842,26 +11835,6 @@ $begin 'AnsoftProject'
 							ReportID=473
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(9)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=3
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=1
-															view(9, cam(PolCam(-1, 1, -1, 1, -2.44105300993452e-30, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -9, -38, 0, 0, 773, 484))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'C0_X_db10normalized'
@@ -11869,26 +11842,6 @@ $begin 'AnsoftProject'
 							ReportID=475
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0.177888959646225, 0.814565420150757, 0.0245760753750801, 0.661252439022064, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -9, -38, 0, 0, 773, 484))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'S11'
@@ -11896,26 +11849,6 @@ $begin 'AnsoftProject'
 							ReportID=479
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(36)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(3, -1, -1, -9, -38, 64, 64, 837, 548))
-									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Zin'
