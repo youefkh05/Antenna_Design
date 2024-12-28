@@ -9,3 +9,6 @@
 
 # Ignore .aedt.auto files
 *.aedt.auto
+
+# Ignore local word file
+~$*
